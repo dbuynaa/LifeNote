@@ -55,6 +55,7 @@ Node.js ашиглан бүрэн ажиллагаатай site
    Бичээд run дархад болно
 4.Visual studio ороод ".env" file үүсгээд доорх кодыг бичнэ
    (DB_PASSWORD дээр өөрийнхөө password-ийг хийж өгнө)
+   
             DB_HOST  = 'localhost'
             DB_USERNAME  = 'root'
             DB_PASSWORD = ''
