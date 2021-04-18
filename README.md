@@ -54,10 +54,10 @@ Node.js ашиглан бүрэн ажиллагаатай site
         ALTER TABLE `accounts` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;     
    Бичээд run дархад болно
 4.Visual studio ороод ".env" file үүсгээд доорх кодыг бичнэ
-
+   (DB_PASSWORD дээр өөрийнхөө password-ийг хийж өгнө)
             DB_HOST  = 'localhost'
             DB_USERNAME  = 'root'
-            DB_PASSWORD = '1616'
+            DB_PASSWORD = ''
             DB_NAME = 'nodelogin'
             SERVER_PORT = 3000
        
