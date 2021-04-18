@@ -12,12 +12,12 @@ Node.js ашиглан бүрэн ажиллагаатай site
     ```
     
 
-2.  Terminal гаргаж ирээд npm install гэж бичнэ(NPM-ээс модул суулгах) `Gemfile`:
+2.  Terminal гаргаж ирээд npm install гэж бичнэ(NPM-ээс модул суулгах):
 
-    ```Open Terminal-->npm i
+        Open Terminal-->npm i
     
-    ```
-3.  My Sql дээр DataBase үүсгэнэ (Mysql суулгасан байх ёстой) `Gemfile`:
+    
+3.  My Sql дээр DataBase үүсгэнэ (Mysql суулгасан байх ёстой):
 
     ``Датабасэээ үүсгэхдээ үүнийг бичихэд болно
        
