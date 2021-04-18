@@ -55,7 +55,9 @@ Node.js ашиглан бүрэн ажиллагаатай site
 
         ALTER TABLE `accounts` ADD PRIMARY KEY (`id`);
         ALTER TABLE `accounts` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;     
-   Бичээд run дархад болно
+         Бичээд run дархад болно
+         
+         
 4.Visual studio ороод ".env" file үүсгээд доорх кодыг бичнэ
        (DB_PASSWORD дээр өөрийнхөө password-ийг хийж өгнө)
    
