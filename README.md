@@ -3,9 +3,9 @@ Node.js ашиглан бүрэн ажиллагаатай site
 
   <img src="https://scontent.fuln1-1.fna.fbcdn.net/v/t1.15752-9/172634573_282922603467071_5838308048362368098_n.png?_nc_cat=102&ccb=1-3&_nc_sid=ae9488&_nc_ohc=Zal9tlVs5EoAX8QqKhD&_nc_ht=scontent.fuln1-1.fna&oh=d5159e063446dcecb482a6fcd09e6c61&oe=60A22755" alt="">
   
-# blog нь
+ ## download
+git@github.com:dbuynaa/test.git
 
-  <img src="https://scontent.fuln1-1.fna.fbcdn.net/v/t1.15752-9/175819465_285854842992787_7831713219284064779_n.png?_nc_cat=102&ccb=1-3&_nc_sid=ae9488&_nc_ohc=VmxROUPEcU8AX_hiLUq&_nc_ht=scontent.fuln1-1.fna&oh=a79dc03b272a2ce7aae3b1f9895ece24&oe=60A0F8AC" alt="">
 ## Ашиглах
 Яаж ашиглах вэ:
 
