@@ -1,32 +1,50 @@
-# BlogVlog
-Blog website with multi-user feature, comments system and unique style.
-<br><br>
-Made with Django2, Python3, Html5, Bootstrap, Mobirise, CSS3, js, jquery.
+# [Tailwind Toolbox](https://www.tailwindtoolbox.com/) - [Ghostwind](https://www.tailwindtoolbox.com/templates/ghostwind)
+
+[Ghostwind Template](https://www.tailwindtoolbox.com/templates/ghostwind) is a clone of the Casper theme for Ghost created in [Tailwind CSS](https://tailwindcss.com/) by [Tailwind Toolbox](https://www.tailwindtoolbox.com/).
 
 
-# features 
-- Blogs are categorised by hashtags
-- Login / Signup / Forgot Password
-- Comments and replies on every blog
-- Authenticated user can comment else they will prompted to login
-- Use HTML tags for formatting when writing a new post
-- Every profile has a view counter
-- Search Blog or Writer.
+[![Ghostwind Home Page](https://www.tailwindtoolbox.com/templates/ghostwind-home.png)](https://tailwindtoolbox.github.io/Ghostwind/index.html)
 
-# Screenshots
-<blockquote>Homepage</blockquote>
-<br>
-<img src="https://image.ibb.co/hRBign/Screenshot_2018_4_13_homepage_4.jpg" alt="Screenshot 2018 4 13 homepage 4" border="0" />
+[![Ghostwind](https://www.tailwindtoolbox.com/templates/ghostwind.png)](https://tailwindtoolbox.github.io/Ghostwind/post.html)  
 
-<br>
-<blockquote>Blog Details</blockquote>
-<br>
-<img src="https://image.ibb.co/iGx1j7/Screenshot_2018_4_14_homepage_1.jpg" alt="Screenshot_2018_4_14_homepage_1" border="0"><br>
-<br>
+Click here to [preview the homepage](https://www.tailwindtoolbox.com/templates/ghostwind-home)
 
-<blockquote>Login Page</blockquote>
-<br>
-<img src="https://image.ibb.co/njp3gn/Screenshot_2018_4_13_homepage_2.png" alt="Screenshot 2018 4 13 homepage 2" border="0" />
-<br>
+Click here to [preview the blog post](https://www.tailwindtoolbox.com/templates/ghostwind) | [Vue version](https://tailwindtoolbox.github.io/Ghostwind/post_vue.html)  
 
-# Thankyou
+## Getting Started
+
+Choose one of the following options to get started:
+* [Download the latest release](https://github.com/tailwindtoolbox/Ghostwind/archive/master.zip)
+* Clone the repo: `git clone https://github.com/tailwindtoolbox/Ghostwind.git`
+* Fork the repo
+
+## Using the Template
+
+The template is just a HTML file using a full CDN hosted Tailwind CSS file.
+
+To get the best out of Tailwind CSS, you need to really start customising it.
+Take a look at our [setup guide](https://www.tailwindtoolbox.com/setup) to start tweaking!
+
+## Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/tailwindtoolbox/ghostwind/issues/new) here on GitHub.
+
+## Creator
+
+[Tailwind Toolbox](https://www.tailwindtoolbox.com/) was created by and is maintained by **[Amrit Nagi](https://amritnagi.info/)**, Co-owner of [Astrava.Solutions](https://astrava.solutions).
+
+* https://twitter.com/tailwindtoolbox
+* https://twitter.com/amritnagi
+* https://github.com/tailwindtoolbox
+
+Tailwind Toolbox is based on the [Tailwind CSS](https://www.tailwindcss.com) framework created by [Adam Wathan](https://twitter.com/adamwathan), [Jonathan Reinink](https://twitter.com/reinink), [David Hemphill](https://twitter.com/davidhemphill) and [Steve Schoger](https://twitter.com/steveschoger)
+
+## Contributors
+
+Thanks for all the tips and PR's and Vue version
+* [@diomed](https://github.com/diomed)
+
+
+## Copyright and License
+
+Copyright 2018-2019 Astrava.Solutions Ltd. Code released under the MIT license.
