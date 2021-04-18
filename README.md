@@ -1,4 +1,4 @@
-# [Tailwind Toolbox](https://www.tailwindtoolbox.com/) - [Ghostwind](https://www.tailwindtoolbox.com/templates/ghostwind)
+# [Tailwind Toolbox](https://www.tailwindtoolbox.com/) - [Ghostwind](https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png)
 
 [Ghostwind Template](https://www.tailwindtoolbox.com/templates/ghostwind) is a clone of the Casper theme for Ghost created in [Tailwind CSS](https://tailwindcss.com/) by [Tailwind Toolbox](https://www.tailwindtoolbox.com/).
 
