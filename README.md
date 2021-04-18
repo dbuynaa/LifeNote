@@ -3,8 +3,10 @@ Node.js ашиглан бүрэн ажиллагаатай site
 
   <img src="https://scontent.fuln1-1.fna.fbcdn.net/v/t1.15752-9/172634573_282922603467071_5838308048362368098_n.png?_nc_cat=102&ccb=1-3&_nc_sid=ae9488&_nc_ohc=Zal9tlVs5EoAX8QqKhD&_nc_ht=scontent.fuln1-1.fna&oh=d5159e063446dcecb482a6fcd09e6c61&oe=60A22755" alt="">
   
- ## download
+ ## download clone zip
     x-github-client://openRepo/https://github.com/dbuynaa/test
+    
+ ## download git
     git@github.com:dbuynaa/test.git
 
 ## Ашиглах
