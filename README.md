@@ -19,9 +19,9 @@ Node.js ашиглан бүрэн ажиллагаатай site
     
 3.  My Sql дээр DataBase үүсгэнэ (Mysql суулгасан байх ёстой):
 
-    ``Датабасэээ үүсгэхдээ үүнийг бичихэд болно
+    Датабасэээ үүсгэхдээ үүнийг бичихэд болно
        
-               CREATE DATABASE IF NOT EXISTS `nodelogin` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+        CREATE DATABASE IF NOT EXISTS `nodelogin` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
         USE `nodelogin`;
 
         CREATE TABLE IF NOT EXISTS `blogPost` (
