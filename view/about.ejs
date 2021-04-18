@@ -1,0 +1,74 @@
+<%- include('./layout/header.ejs'); %>
+<!-- Home Section -->
+
+<section id="home" class="main-about parallax-section">
+     <div class="overlay"></div>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-12 col-sm-12">
+                    <h1>Бидний Тухай</h1>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+<!-- About Section -->
+
+<section id="about">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <!-- <div class="col-md-4 col-sm-4">
+                         <h2>Our Story</h2>
+                         <p></p>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit <strong>Ut enim ad minim veniam, quis nostrud</strong> exercitation ullamco.</p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <h2>New Design</h2>
+                         <p>Quisque vitae felis eros. Suspendisse quis leo molestie, iaculis sapien id, hendrerit augue. Phasellus fermentum.</p>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <h2>HTML CSS</h2>
+                         <p>Vivamus non scelerisque ex, et interdum leo. In bibendum lacus vitae felis egestas, at consectetur metus facilisis.</p>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    </div> -->
+
+                    <div class="col-md-6 col-sm-6">
+                         <h3>Бидний Зорилго</h3>
+                         <p>Бид таны бүхийл амьлралын зухагийн тэмдэглэлийг энд бий болгохыг хүсэж байна</p>
+                         <p>Зураг гэдэг нь таны бүхийл нандин хором мөч дурсамжийг илэрхийлэх баримт юм. </p>
+                         <p>Таны амьлралын дурсамж өөрийн амьдралаа хэрхэн өнгөрөөсөн бүхийл нандин хором мөчүүд зураганд сийлэгдэн үлддэг гэж бид итгэдэг </p>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                         <img src="images/lifePhoto.jpg" class="img-responsive" alt="About Image">
+                    </div>
+
+                    <div class="clearfix"></div>
+                    <% for(var i = 0; i< users.length; i++) { %>
+                   
+                    <div class="col-md-4 col-sm-4">
+                         <a href="/user-detail/<%= users[i].id %>">
+                         <img src="../avatars/<%= users[i].profilePicture %>" class="img-responsive" height="200px" alt="Blog Image"></a>
+                         <h3><%= users[i].username %></h3>
+                         <p><%= users[i].username %>.</p>
+                    </div>
+               
+                   <% } %>
+					
+                    <h3>Бидний түүх</h3>
+                    <p>Fusce finibus ac orci ut feugiat. Duis accumsan dui non augue ullamcorper, at porta elit lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras at est non quam mattis hendrerit. Fusce purus massa, pretium malesuada eros nec, feugiat iaculis sem.</p>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+<!-- Footer Section -->
+<%- include('./layout/footer.ejs'); %>

@@ -1,0 +1,60 @@
+<%- include('./layout/header.ejs'); %>
+
+<!-- Home Section -->
+
+<section id="home" class="main-home parallax-section">
+     <div class="overlay"></div>
+     <div id="particles-js"></div>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-12 col-sm-12">
+                    <h1>Welcome To LifeNote</h1>
+                    <h4>Your all of life albume collection</h4>
+                    <a href="/gallery" class="smoothScroll btn btn-default">Discover More</a>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+<!-- Blog Section -->
+
+<section id="blog">
+     <div class="container">
+          <div class="row">
+               <% for(var i = users.length-1; i >= 0; i--) { %>
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <div class="blog-post-thumb">
+                         <div class="blog-post-image">
+                              <a href="/single-post/<%= users[i].id %>">
+                                   <img src="../photos/<%= users[i].blogPhoto %>" class="img-responsive" alt="Blog Image">
+                              </a>
+                         </div>
+                         <div class="blog-post-title">
+                    <h3><a href="/single-post/<%= users[i].id %>"><%= users[i].title %></a></h3>
+                         </div>
+                        
+                         <div class="blog-post-format">
+                              <% for(var j = 0 ;j < accounts.length; j++) { %>
+                                   <% if(accounts[j].username == users[i].user)  {  %>
+                         <span><a href="/user-detail/<%= accounts[j].id %>"><img src="../avatars/<%= accounts[j].profilePicture %>" class="img-responsive img-circle"><%= accounts[j].username %></a></span>
+                                   <%  break; } %>
+                              <% } %>
+                              <span><i class="fa fa-date"></i><%= users[i].date %></span>
+                             
+                         </div>
+                        
+                         <div class="blog-post-des">
+                              <p><%= users[i].desTitle %></p>
+                         </div>
+                    </div>
+               </div>
+               <% } %>
+
+          </div>
+     </div>
+</section>
+
+<!-- Footer Section -->
+<%- include('./layout/footer.ejs'); %>

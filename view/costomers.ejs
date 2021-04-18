@@ -1,0 +1,35 @@
+<%- include('./admin-layout/header.ejs'); %>
+          <form action="login" method="POST" class="form login">
+            <% if(error) {%>
+              <p><%= error %></p>
+            <%} %>
+           
+            <header class="login__header">
+              <h3 class="login__title">Login</h3>
+            </header>
+      
+            <div class="login__body">
+      
+              <div class="form__field">
+                <input type="text" placeholder="Email" name="username" required>
+              </div>
+      
+              <div class="form__field">
+                <input type="password" name="password" placeholder="Password" required>
+              </div>
+      
+            </div>
+      
+            <footer class="login__footer">
+              <input type="submit" value="Login">
+      
+              <p><span class="icon icon--info">?</span><a href="/register">dont have account</a></p>
+            </footer>
+      
+          </form>
+      
+        </div>
+      
+      </body>
+</body>
+</html>

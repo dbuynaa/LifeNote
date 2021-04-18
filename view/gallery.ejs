@@ -1,0 +1,48 @@
+<%- include('./layout/header.ejs'); %>
+<!-- Home Section -->
+
+<section id="home" class="main-gallery parallax-section">
+     <div class="overlay"></div>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-12 col-sm-12">
+                    <h1>Зурагийн Цомог</h1>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+<!-- Gallery Section -->
+
+<section id="gallery">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <h2>Таны Амьлралын Зурагийн Цомог</h2>
+                    <p>Aliquam blandit velit nisi, sed fringilla felis lacinia sed. Integer vitae porta felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus non tristique lacus. Suspendisse ut tortor vitae risus lacinia tristique. Aliquam sed consectetur libero.</p>
+                  
+                    <span></span>
+                    <% for(var i = 0; i< gallery.length; i++) { %>
+                    <div class="col-md-6 col-sm-6">
+                         <div class="gallery-thumb">
+                              <a href="/single-post/<%= gallery[i].id %>" class="image-popup">
+                                   <img src="../photos/<%= gallery[i].blogPhoto %>" class="img-responsive" alt="Gallery Image">
+                              </a>
+                         </div>
+                    </div>
+                    <% } %>
+
+                    <div class="col-md-12 col-sm-12">
+                         <p>Aliquam blandit velit nisi, sed fringilla felis lacinia sed. Integer vitae porta felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus non tristique lacus.</p>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+<!-- Footer Section -->
+<%- include('./layout/footer.ejs'); %>

@@ -1,0 +1,65 @@
+<%- include('./layout/header.ejs'); %>
+
+<section id="home" class="main-single-post parallax-section">
+     <div class="overlay"></div>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-12 col-sm-12">
+                    <h1><%= user.username %></h1>
+                    <img src="../avatars/<%= user.profilePicture %>"  class="img-circle" width="200px" height="200px">
+               </div>
+
+          </div>
+     </div>
+</section>
+
+<!-- Blog Single Post Section -->
+
+<section id="blog-single-post">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <div class="blog-single-post-thumb">
+                         
+
+                         <div class="blog-post-title">
+                              <h2>Товч Танилцуулга</h2>
+                         </div>
+
+
+                         <div class="blog-post-des">
+                              <p>Vivamus euismod tempor interdum. Vivamus non scelerisque ex, et interdum leo. In bibendum lacus vitae felis egestas, at consectetur metus facilisis. Morbi tellus dolor, porta dignissim enim sit amet, dapibus sagittis erat. In blandit elit sit amet dui aliquet congue nec vel quam. Integer id tristique libero.</p>
+                              
+                              <div class="blog-post-image">
+                            
+                         
+                         
+                              <h3>Оруулж Байсан Нийтлэлүүд</h3>
+                            
+                       
+                         
+                         
+
+                         <div class="blog-single-post-image">
+                              <div class="col-md-4 col-sm-4">
+                                   <img src="../images/blog-image1.jpg" class="img-responsive" alt="Blog Image 1">
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                   <img src="../images/blog-image2.jpg" class="img-responsive" alt="Blog Image 2">
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                   <img src="../images/blog-image3.jpg" class="img-responsive" alt="Blog Image 3">
+                              </div>
+                         </div>
+                            
+
+                      
+                    </div>
+          </div>
+     </div>
+</section>
+
+<!-- Footer Section -->
+<%- include('./layout/footer.ejs'); %>
