@@ -3,7 +3,7 @@
 [Ghostwind Template](https://www.tailwindtoolbox.com/templates/ghostwind) is a clone of the Casper theme for Ghost created in [Tailwind CSS](https://tailwindcss.com/) by [Tailwind Toolbox](https://www.tailwindtoolbox.com/).
 
 
-[![Ghostwind Home Page](![image](https://user-images.githubusercontent.com/62173996/115144743-f9139400-a080-11eb-90a3-a52c17ba41f6.png))
+[![Ghostwind Home Page](![image](https://scontent.fuln6-1.fna.fbcdn.net/v/t1.15752-9/173431603_3004647326435749_5255849585142875583_n.png?_nc_cat=107&ccb=1-3&_nc_sid=ae9488&_nc_ohc=xojH1GKIh3oAX_HWyzt&_nc_ht=scontent.fuln6-1.fna&oh=eb06fb152f4c30becdd7c295e4b39085&oe=60A38AA9)
 
 [![Ghostwind](https://image.winudf.com/v2/image/Y29tLmFuaW1lLnB1dHJhYWJhZGlfc2NyZWVuXzBfMTUyODMxNDExNF8wMTU/screen-0.jpg?fakeurl=1&type=.jpg)](https://tailwindtoolbox.github.io/Ghostwind/post.html)  
 
