@@ -5,7 +5,7 @@
 
 [![Ghostwind Home Page](https://wallpaperaccess.com/full/791666.jpg)](https://tailwindtoolbox.github.io/Ghostwind/index.html)
 
-[![Ghostwind](https://www.tailwindtoolbox.com/templates/ghostwind.png)](https://tailwindtoolbox.github.io/Ghostwind/post.html)  
+[![Ghostwind](https://image.winudf.com/v2/image/Y29tLmFuaW1lLnB1dHJhYWJhZGlfc2NyZWVuXzBfMTUyODMxNDExNF8wMTU/screen-0.jpg?fakeurl=1&type=.jpg)](https://tailwindtoolbox.github.io/Ghostwind/post.html)  
 
 Click here to [preview the homepage](https://www.tailwindtoolbox.com/templates/ghostwind-home)
 
