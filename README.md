@@ -1,6 +1,6 @@
 # Энэ blog site нь
 Node.js ашиглан бүрэн ажиллагаатай site 
-
+https://dbuynaa.github.io/test2/
 
 ## Ашиглах
 
