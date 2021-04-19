@@ -5,7 +5,7 @@ Node.js ашиглан бүрэн ажиллагаатай site
   
  # download clone zip
  
-    x-github-client://openRepo/https://github.com/dbuynaa/test  
+  https://github.com/dbuynaa/LifeNote/archive/refs/heads/main.zip
     
  # download git
     git@github.com:dbuynaa/test.git   
