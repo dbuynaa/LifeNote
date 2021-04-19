@@ -6,9 +6,7 @@ Node.js ашиглан бүрэн ажиллагаатай site
  # download clone zip
  
   https://github.com/dbuynaa/LifeNote/archive/refs/heads/main.zip
-    
- # download git
-    git@github.com:dbuynaa/test.git   
+      
 
 ## Ашиглах
 Яаж ашиглах вэ:
@@ -16,7 +14,7 @@ Node.js ашиглан бүрэн ажиллагаатай site
 1. Visual studtio дээрээ folderoor нь нээнэ :
 
     ```yml
-    file->Open Folder
+    file->Open Folder-->lifenote
     ```
     
 
