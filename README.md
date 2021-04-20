@@ -58,7 +58,7 @@ Node.js ашиглан бүрэн ажиллагаатай site
          
          
 4.Visual studio ороод ".env" file үүсгээд доорх кодыг бичнэ
-       (DB_PASSWORD дээр өөрийнхөө password-ийг хийж өгнө)
+       (DB_PASSWORD дээр өөрийнхөө database password-ийг хийж өгнө)
    
             DB_HOST  = 'localhost'
             DB_USERNAME  = 'root'
