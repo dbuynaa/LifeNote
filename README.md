@@ -57,15 +57,15 @@ Node.js ашиглан бүрэн ажиллагаатай site
          Бичээд run дархад болно
          
          
-4.Visual studio ороод ".env" file үүсгээд доорх кодыг бичнэ
-       (DB_PASSWORD дээр өөрийнхөө database password-ийг хийж өгнө)
+4.Visual studio ороод ".env" file үүсгээд доорх кодыг бичнэ 
+       (DB_PASSWORD дээр өөрийнхөө password-ийг хийж өгнө)
    
             DB_HOST  = 'localhost'
             DB_USERNAME  = 'root'
             DB_PASSWORD = ''
             DB_NAME = 'nodelogin'
             SERVER_PORT = 3000
-       
+ Хэрвээ password чинь тоо байвал үүнийг бичих хэрэгтэй ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Өөрийн password хийнэ'    
 5. Terminal гаргаад 
         
         npm start
