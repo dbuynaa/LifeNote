@@ -65,8 +65,12 @@ Node.js ашиглан бүрэн ажиллагаатай site
             DB_PASSWORD = ''
             DB_NAME = 'nodelogin'
             SERVER_PORT = 3000
- Хэрвээ password чинь тоо байвал үүнийг бичих хэрэгтэй ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Өөрийн password хийнэ'    
-5. Terminal гаргаад 
+                      
+5. Хэрвээ password чинь тоо байвал үүнийг бичих хэрэгтэй
+
+           ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Өөрийн password хийнэ'
+           
+8. Terminal гаргаад
         
         npm start
         
