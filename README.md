@@ -66,4 +66,8 @@ Node.js ашиглан бүрэн ажиллагаатай site
             DB_NAME = 'nodelogin'
             SERVER_PORT = 3000
        
-5.Одоо browseroo гаргаад "Localhost:3000" гэж бичнэ       
+5. Terminal гаргаад 
+        
+        npm start
+        
+8.  Одоо browseroo gargaaad "Localhost:3000" гэж бичнэ       
